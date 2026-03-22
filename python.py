@@ -85,7 +85,19 @@
 
 # print(removeWhiteSpace("There are many spaces in ths string"))
 
-def name(input):
-    return f"Hello, {input}"
+# def name(input):
+#     return f"Hello, {input}"
 
-print(name("Tim"))
+# print(name("Tim"))
+
+# basic conditional
+
+age = 16
+
+def canGoClubbing():
+    if age >= 18:
+        print("Yes, you can go clubbing!")
+    else:
+        print("Sorry, you can't go clubbing")
+    
+canGoClubbing()
