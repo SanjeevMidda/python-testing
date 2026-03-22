@@ -132,3 +132,5 @@ def removeCar(car):
     return cars
 
 print(removeCar("Lambo"))
+
+print(len(cars))
