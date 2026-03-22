@@ -80,7 +80,12 @@
 
 # remove whitespace
 
-def removeWhiteSpace(input):
-    return input.replace(" ", "")
+# def removeWhiteSpace(input):
+#     return input.replace(" ", "")
 
-print(removeWhiteSpace("There are many spaces in ths string"))
+# print(removeWhiteSpace("There are many spaces in ths string"))
+
+def name(input):
+    return f"Hello, {input}"
+
+print(name("Tim"))
