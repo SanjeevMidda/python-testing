@@ -140,16 +140,26 @@
 
 # create a loop to add items to a list
 
-fruits = ["apricot", "blueberries", "oranges"]
+# fruits = ["apricot", "blueberries", "oranges"]
 
 
-def addItem(fruit):
+# def addItem(fruit):
 
-    i = 0
-    while i < 10:
-        fruits.append(fruit)
-        i = i + 1
+#     i = 0
+#     while i < 10:
+#         fruits.append(fruit)
+#         i = i + 1
 
-addItem("strawberries")
+# addItem("strawberries")
 
-print(fruits)
+# print(fruits)
+
+numbers = [1, 3, 13, 200, 375]
+
+newNumbers = []
+
+for number in numbers:
+    newNumber = number + 100
+    newNumbers.append(newNumber)
+
+print(newNumbers)
