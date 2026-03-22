@@ -27,8 +27,15 @@
 
 # create function to take an argument and carry out multiplication with it
 
-def calculationTwo(num):
-    calculated = (num * 40) + 60
-    return calculated
+# def calculationTwo(num):
+#     calculated = (num * 40) + 60
+#     return calculated
 
-print(calculationTwo(5))
+# print(calculationTwo(5))
+
+# create function which carries out some calculation
+
+def calculated(numA, numB):
+    return (numA + numB) * 2
+
+print(calculated(10, 27))
