@@ -118,22 +118,38 @@
 
 # add item to a list
 
-cars = ["Lambo", "Ferrari"]
+# cars = ["Lambo", "Ferrari"]
 
-def addItem(existingList, newItem):
-    existingList.append(newItem)
+# def addItem(existingList, newItem):
+#     existingList.append(newItem)
 
-    print(cars)
+#     print(cars)
 
-addItem(cars, "Nissan")
+# addItem(cars, "Nissan")
 
-def removeCar(car):
-    cars.remove(car)
-    return cars
+# def removeCar(car):
+#     cars.remove(car)
+#     return cars
 
-print(removeCar("Lambo"))
+# print(removeCar("Lambo"))
 
-print(len(cars))
+# print(len(cars))
 
-cars.reverse()
-print(cars)
+# cars.reverse()
+# print(cars)
+
+# create a loop to add items to a list
+
+fruits = ["apricot", "blueberries", "oranges"]
+
+
+def addItem(fruit):
+
+    i = 0
+    while i < 10:
+        fruits.append(fruit)
+        i = i + 1
+
+addItem("strawberries")
+
+print(fruits)
