@@ -16,3 +16,11 @@
 #     return firstNumber + secondNumber
 
 # print(addTogether(12,5))
+
+# create expression for division
+
+def calculation(num):
+    calculated = (num / 2) +1 
+    return calculated
+
+print(calculation(5))
