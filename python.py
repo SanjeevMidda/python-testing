@@ -104,10 +104,14 @@
 
 # created function to check the length of a string
 
-def stringLength(input):
-    if len(input) == 5:
-        print("String is 5 characters long!")
-    else:
-        print("String is not 5 characters long!")
+# def stringLength(input):
+#     if len(input) == 5:
+#         print("String is 5 characters long!")
+#     else:
+#         print("String is not 5 characters long!")
 
-stringLength("abcde")
+# stringLength("abcde")
+
+fruits = ["apple", "pear", "plum", "strawberries", "oranges"]
+
+print(fruits)
