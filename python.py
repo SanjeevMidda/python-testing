@@ -134,3 +134,6 @@ def removeCar(car):
 print(removeCar("Lambo"))
 
 print(len(cars))
+
+cars.reverse()
+print(cars)
