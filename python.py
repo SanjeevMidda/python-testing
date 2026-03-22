@@ -52,7 +52,14 @@
 # print(lastLetter("I want some ice cream"))
 
 # get letter at a specified index
-def getIndexLetter(input, index):
-    return input[index]
+# def getIndexLetter(input, index):
+#     return input[index]
 
-print(getIndexLetter("This pizza is tasty!", 8))
+# print(getIndexLetter("This pizza is tasty!", 8))
+
+# get letters between a specific range
+
+def getLettersInRange(input, startIndex, endIndex):
+    return input[startIndex:endIndex]
+
+print(getLettersInRange("I went to New York", 3, 8))
