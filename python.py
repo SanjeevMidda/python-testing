@@ -112,6 +112,17 @@
 
 # stringLength("abcde")
 
-fruits = ["apple", "pear", "plum", "strawberries", "oranges"]
+# fruits = ["apple", "pear", "plum", "strawberries", "oranges"]
 
-print(fruits)
+# print(fruits)
+
+# add item to a list
+
+cars = ["Lambo", "Ferrari"]
+
+def addItem(existingList, newItem):
+    existingList.append(newItem)
+
+    print(cars)
+
+addItem(cars, "Nissan")
