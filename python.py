@@ -9,3 +9,10 @@
 #     return number * number
 
 # print(squared(16))
+
+# create a function which adds two numbers together
+
+# def addTogether(firstNumber, secondNumber):
+#     return firstNumber + secondNumber
+
+# print(addTogether(12,5))
