@@ -35,7 +35,12 @@
 
 # create function which carries out some calculation
 
-def calculated(numA, numB):
-    return (numA + numB) * 2
+# def calculated(numA, numB):
+#     return (numA + numB) * 2
 
-print(calculated(10, 27))
+# print(calculated(10, 27))
+
+def firstLetter(input):
+    return input[0]
+
+print(firstLetter("New York"))
