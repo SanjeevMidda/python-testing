@@ -59,7 +59,14 @@
 
 # get letters between a specific range
 
-def getLettersInRange(input, startIndex, endIndex):
-    return input[startIndex:endIndex]
+# def getLettersInRange(input, startIndex, endIndex):
+#     return input[startIndex:endIndex]
 
-print(getLettersInRange("I went to New York", 3, 8))
+# print(getLettersInRange("I went to New York", 3, 8))
+
+# make string uppercase
+
+def makeUpperCase(input):
+    return input.upper()
+
+print(makeUpperCase("I am learning Python!"))
