@@ -40,7 +40,13 @@
 
 # print(calculated(10, 27))
 
-def firstLetter(input):
-    return input[0]
+# def firstLetter(input):
+#     return input[0]
 
-print(firstLetter("New York"))
+# print(firstLetter("New York"))
+
+# get last letter from string
+def lastLetter(input):
+    return input[-1]
+
+print(lastLetter("I want some ice cream"))
