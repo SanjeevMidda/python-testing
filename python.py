@@ -66,7 +66,14 @@
 
 # make string uppercase
 
-def makeUpperCase(input):
-    return input.upper()
+# def makeUpperCase(input):
+#     return input.upper()
 
-print(makeUpperCase("I am learning Python!"))
+# print(makeUpperCase("I am learning Python!"))
+
+# make string lowercase
+
+def makeLowerCase(input):
+    return input.lower()
+
+print(makeLowerCase("London is the capital of the UK"))
