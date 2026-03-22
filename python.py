@@ -46,7 +46,13 @@
 # print(firstLetter("New York"))
 
 # get last letter from string
-def lastLetter(input):
-    return input[-1]
+# def lastLetter(input):
+#     return input[-1]
 
-print(lastLetter("I want some ice cream"))
+# print(lastLetter("I want some ice cream"))
+
+# get letter at a specified index
+def getIndexLetter(input, index):
+    return input[index]
+
+print(getIndexLetter("This pizza is tasty!", 8))
