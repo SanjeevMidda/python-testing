@@ -126,3 +126,9 @@ def addItem(existingList, newItem):
     print(cars)
 
 addItem(cars, "Nissan")
+
+def removeCar(car):
+    cars.remove(car)
+    return cars
+
+print(removeCar("Lambo"))
