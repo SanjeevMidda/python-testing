@@ -19,8 +19,16 @@
 
 # create expression for division
 
-def calculation(num):
-    calculated = (num / 2) +1 
+# def calculation(num):
+#     calculated = (num / 2) +1 
+#     return calculated
+
+# print(calculation(5))
+
+# create function to take an argument and carry out multiplication with it
+
+def calculationTwo(num):
+    calculated = (num * 40) + 60
     return calculated
 
-print(calculation(5))
+print(calculationTwo(5))
