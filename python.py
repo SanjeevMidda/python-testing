@@ -73,7 +73,14 @@
 
 # make string lowercase
 
-def makeLowerCase(input):
-    return input.lower()
+# def makeLowerCase(input):
+#     return input.lower()
 
-print(makeLowerCase("London is the capital of the UK"))
+# print(makeLowerCase("London is the capital of the UK"))
+
+# remove whitespace
+
+def removeWhiteSpace(input):
+    return input.replace(" ", "")
+
+print(removeWhiteSpace("There are many spaces in ths string"))
